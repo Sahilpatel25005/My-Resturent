@@ -8,11 +8,16 @@ const About = () => {
       <Layout>
         <Box
           sx={{
-            padding : "6rem 2rem ",
+            padding: "6rem 2rem ",
             textAlign: "center",
-            "& h4": { fontWeight: "bold", fontSize: "4rem", my : 2 },
-            "& p": { textAlign: "justify" , paddingBottom : "1rem" },
-            "@media (max-width : 600px)" : {paddingTop : "0", "& h4" : {fontSize : "1.5rem"} , marginTop: "1.5rem" , px : "1.5rem"}
+            "& h4": { fontWeight: "bold", fontSize: "4rem", my: 2 },
+            "& p": { textAlign: "justify", paddingBottom: "1rem" },
+            "@media (max-width : 600px)": {
+              paddingTop: "0",
+              "& h4": { fontSize: "1.5rem" },
+              marginTop: "1.5rem",
+              px: "1.5rem",
+            },
           }}
         >
           <Typography variant="h4" sx={{ mb: "1rem" }}>
